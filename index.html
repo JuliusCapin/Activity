@@ -4,26 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<style>
+    <style>
+    *{
+     padding:0;
+     margin:0;
+     color:white;
+     
+    }
+    body{        
+        height:100vh;
+        background: #00A19Bff;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
     button{
+        margin-top: 25%;
         border:none;
-        background: lightcyan;
+        background: transparent;
         padding: 15px;
         border-radius: 15px;
-        box-shadow: 0px 5px 5px black;
+        box-shadow: 0px 8px 10px black;
 
     }
     button:active{
         transform: translateY(5px);
         box-shadow: none;
     }
+   
+    .gg{
+        font-weight: normal;
+        font-family:'Courier New', Courier, monospace
+    }
+    .t{
+        font-size: 19px;
+    }
+    .j{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif
 </style>
+</head>
+
 <body>
     
-    <h1>GROUP ACTIVITY<br>Simple E-Commerce Design<br></h1>
-    <p>James Lewis Cereza    -Leader</p>
-    <button onclick="h()">CHECK PRODUCT</button>
+    <br><br><br><br><br><br>
+    <h1 class="gg">Non-Stylish Shorts Collection</h1>
+    <p class="t">Comfortable. Affordable. Just for you.</p>
+    
+    <button onclick="h()">SHOP NOW!</button>
+    <div class="j">
+    <p>James Lewis Cereza    -Leader<br>
+        Kenjie Paulite -Co-Leader
+        <br>Jonel Competente -Graphic Artist<br>
+        Julius Martin Capin -Pancit Canton<br>
+        John Paul Alarcon -Water Boy
+        </br></p>
+        </div>
 </body>
 <script>
     function h(){
